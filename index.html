@@ -10,50 +10,83 @@
     />
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
-    <header>
-    <div class="navbar">
-      <div class="logo">
-          ŠTĚPÁN KRÁČMAR<br>
-          <span class="subtitle">UX/UI Design</span>
-      </div>
-      <div class="menu">
-          <a href="#o-mě">O mně</a>
-          <a href="#má-práce">Má práce</a>
-      </div>
-    </header>
-    
-    <div class="container">
-      <div class="white-column">
-        <img src="stepan.png" alt="Profile Picture" />
-        <h2>Kalendář a karta produktu</h2>
-        <img src="logo.png" alt="Logos" />
-        <h2>Game design</h2>
+    <div class="main-container" id="o-mne">
+      <div class="content-wrapper">
+        <header>
+          <div class="navbar">
+            <div class="logo">
+              ŠTĚPÁN KRÁČMAR<br />
+              <span class="subtitle">UX/UI Design</span>
+            </div>
+            <div class="menu">
+              <a href="#o-mne">O mně</a>
+              <a href="#ma-prace">Má práce</a>
+            </div>
+          </div>
+        </header>
 
-        <img src="telefony.png" alt="Phones" />
-      </div>
+        <section class="container">
+          <div class="white-column">
+            <img src="stepan.png" alt="Profile Picture" />
+          </div>
+          <div class="brown-column">
+            <h2 class="text-left">JEDNODUCHÝ &amp; EFEKTIVNÍ</h2>
+            <p class="text-left">
+              Je pro mě důležitý jednoduchý design, který si na nic
+              nehraje.column
+            </p>
+            <p class="text-left">
+              Momentálně žiju v Brně, kde se kromě designu věnuji pedagogice a
+              hudební tvorbě.
+            </p>
+            <button>
+              <a class="contact" href="mailto:stepan.kracmar@outlook.cz"
+                >Kontaktujte mě</a
+              >
+            </button>
+          </div>
+        </section>
 
-      <div class="brown-column">
-        <div class="brown1">
-          <h2>JEDNODUCHÝ &amp; EFEKTIVNÍ</h2>
-          <p>
-            Je pro mě důležitý jednoduchý design, který si na nic nehraje.
-          </p> Momentálně žiju v Brně, kde se kromě designu věnuji pedagogice a hudební tvorbě.
+        <section class="container">
+          <div class="white-column center right">
+            <h2>Kalendář a karta produktu</h2>
+          </div>
+          <div class="brown-column center">
+            <img
+              class="calendar-image"
+              src="calendar.png"
+              alt="Calendar and Product Card"
+            />
+          </div>
+        </section>
 
-          
-          <div><button>Kontaktujte mě</button></div>
-        </div>
-        
-    
-        <img src="calendar.png" alt="Calendar and Product Card" />
-        <h2>Logo design</h2>
-        <img src="dark-sun.png" alt="Dark Sun Game" />
-        <h2>Aplikace</h2>
+        <section class="container">
+          <div class="white-column center">
+            <img class="logo-image" src="logo.png" alt="Logos" />
+          </div>
+          <div class="brown-column center left"><h2>Logo design</h2></div>
+        </section>
+
+        <section class="container">
+          <div class="white-column center right"><h2>Game design</h2></div>
+          <div class="brown-column center">
+            <img src="dark-sun.png" alt="Dark Sun Game" />
+          </div>
+        </section>
+
+        <section class="container">
+          <div class="white-column center">
+            <img src="telefony.png" alt="Phones" />
+          </div>
+          <div class="brown-column center left"><h2>Aplikace</h2></div>
+        </section>
+
+        <footer>
+          <p>&copy; Štěpán Kráčmar</p>
+        </footer>
       </div>
     </div>
-
-    <footer>
-      <p>&copy; Štěpán Kráčmar</p>
-    </footer>
   </body>
 </html>
